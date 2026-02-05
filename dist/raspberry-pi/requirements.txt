@@ -1,0 +1,13 @@
+# AERA Smart Mirror - Python Dependencies
+# Install: pip3 install -r requirements.txt
+
+# Web server framework (Async support enabled)
+flask[async]>=3.0.0
+flask-cors>=4.0.0
+asgiref>=3.7.0
+
+# Text-to-Speech
+edge-tts>=6.1.9
+
+# Camera (Optional - Comment out if on Windows without camera)
+# picamera2; platform_system=="Linux"
