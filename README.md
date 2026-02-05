@@ -1,49 +1,111 @@
-## How can I edit this code?
+🤖 AERA — Voice-First Smart Assistant Dashboard
 
-**Use your preferred IDE**
+AERA is a voice-first smart assistant dashboard built for Raspberry Pi and small touch displays, with a full browser simulation mode for development.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+It combines AI voice interaction, live camera feeds, environmental sensors, and a minimal animated UI into a single, edge-friendly system.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+✨ What AERA Does
 
-Follow these steps:
+🎙️ Voice interaction
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Speech-to-Text, AI reasoning, Text-to-Speech
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Animated Voice Orb with clear states (idle, listening, thinking, speaking)
 
-# Step 3: Install the necessary dependencies.
-npm i
+🎥 Camera support
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Live Raspberry Pi camera streaming
+
+Browser camera fallback for simulation & development
+
+🌡️ Sensor monitoring
+
+Temperature, light level, motion detection
+
+Live connection and alert indicators
+
+⏰ Smart reminders
+
+Time-aware reminders
+
+Urgent & overdue detection
+
+Voice-triggered creation
+
+🖥️ Touch-optimized UI
+
+Lock screen with voice wake prompt
+
+Dashboard designed for 7" displays
+
+Smooth, calm animations
+
+🧪 Simulation Mode
+
+AERA can run without any hardware:
+
+Uses the browser camera
+
+Simulated sensor data
+
+Full UI & voice flow enabled
+
+Perfect for local development and testing.
+
+🍓 Raspberry Pi Support
+
+The repo includes Python services for:
+
+Camera streaming
+
+Sensor data
+
+Text-to-Speech
+
+Startup automation
+
+Setup guides:
+
+AERA_COMPLETE_SETUP_GUIDE.md
+
+AERA_LOCALHOST_GUIDE.md
+
+🚀 Getting Started
+Install
+npm install
+
+Run (Simulation Mode)
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
 
 
+Open the app in your browser and AERA will start in simulation mode automatically.
+
+🛠️ Tech Stack
+
+React + TypeScript
+
+Vite
+
+Tailwind CSS
+
+Framer Motion
+
+Raspberry Pi (Python services)
+
+AI voice & vision services
+
+🎯 Project Vision
+
+AERA is an edge-first, human-centric assistant:
+
+Runs locally
+
+Designed for privacy & experimentation
+
+Calm, expressive, and extensible
+
+Think open-source smart assistant UI — built to be hacked on.
+
+📜 License
+
+MIT — build on it, remix it, make it yours.
